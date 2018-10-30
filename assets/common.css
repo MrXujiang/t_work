@@ -1,0 +1,57 @@
+/* reset */
+html {
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+input, button, textarea {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+textarea {
+    resize: none;
+}
+
+/* 通用类 */
+
+.w {
+    position: relative;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+/* 通用字体 */
+.font-20 {
+    font-size: 20px;
+}
+
+/* 通用背景颜色 */
+.gray {
+    color: #444 !important;
+    background-color: #ececec !important;
+}
+

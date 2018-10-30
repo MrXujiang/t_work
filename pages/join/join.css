@@ -1,0 +1,179 @@
+.join-container {
+  min-height: 100vh;
+  background-color: #f7f8fa;
+}
+.join-container .title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  text-align: center;
+}
+.join-container .form-wrap {
+  width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 30px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.join-container .form-wrap .step-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f7f8fa;
+}
+.join-container .form-wrap .step-wrap .step {
+  position: relative;
+  width: 62px;
+  height: 62px;
+  line-height: 62px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  background-color: #ececec;
+}
+.join-container .form-wrap .step-wrap .step::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 4px;
+  width: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ececec;
+}
+.join-container .form-wrap .step-wrap .step-one {
+  margin-right: 100px;
+}
+.join-container .form-wrap .step-wrap .step-one::after {
+  left: 100%;
+}
+.join-container .form-wrap .step-wrap .step-two {
+  margin-left: 100px;
+}
+.join-container .form-wrap .step-wrap .step-two::after {
+  left: 0;
+  margin-left: -100px;
+}
+.join-container .form-wrap .step-wrap .current {
+  background-color: #0ee8d5;
+}
+.join-container .form-wrap .step-wrap .current::after {
+  background-color: #0ee8d5;
+}
+.join-container .form-wrap .form-control {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.join-container .form-wrap .form-control .label {
+  margin-right: 84px;
+  width: 140px;
+  text-align: right;
+}
+.join-container .form-wrap .form-control .label.require::before {
+  content: '*';
+  color: #f56464;
+}
+.join-container .form-wrap .form-control .service-wrap .service {
+  margin-right: 2em;
+  min-width: 4em;
+  text-align: center;
+  display: inline-block;
+  padding: .2em .6em;
+  border-radius: 2em;
+  box-shadow: 0 0 1px #c5c5c5;
+  background-color: #f7f8fa;
+}
+.join-container .form-wrap .form-control .service-wrap .select-service {
+  color: #fff;
+  background-color: #0ee8d5;
+}
+.join-container .form-wrap .form-control .example {
+  flex: 1;
+  margin-bottom: 40px;
+}
+.join-container .form-wrap .form-control .example .photo {
+  display: inline-block;
+  margin-right: 20px;
+}
+.join-container .form-wrap .form-control .example .photo .img-wrap {
+  width: 240px;
+  max-height: 240px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.join-container .form-wrap .form-control .example .photo img {
+  width: 100%;
+}
+.join-container .form-wrap .form-control .example .photo .example-tip {
+  font-size: 14px;
+  color: #ccc;
+}
+.join-container .form-wrap .form-control .example .photo .upload {
+  margin-top: 30px;
+}
+.join-container .form-wrap .form-control .example .photo .upload .upload-btn {
+  min-width: 200px;
+  padding: .4em 2em;
+  border-radius: 1.6em;
+  text-align: center;
+  line-height: 0;
+  color: #fff;
+  background-color: #f56464;
+  cursor: pointer;
+}
+.join-container .form-wrap .form-control .example .photo .upload .upload-btn .ipt-file {
+  position: absolute;
+  display: none;
+}
+.join-container .form-wrap .form-control .example .photo .upload .upload-btn.gray {
+  background-color: #ebebeb;
+}
+.join-container .form-wrap .form-control .ipt {
+  display: inline-block;
+  width: 470px;
+  font-size: 16px;
+  padding: .3em 1em;
+  border-radius: 2em;
+  box-shadow: 0 0 1px #c5c5c5;
+  background-color: #f7f8fa;
+}
+.join-container .form-wrap .form-control .code {
+  margin-left: 30px;
+  color: #0ee8d5;
+  cursor: pointer;
+}
+.join-container .form-wrap .form-control .ipt-sm {
+  width: 360px;
+}
+.join-container .form-wrap .form-control .add-project {
+  margin-left: 1em;
+  display: inline-block;
+  width: 1.6em;
+  height: 1.6em;
+  text-align: center;
+  border-radius: 1em;
+  color: #fff;
+  background-color: #0ee8d5;
+  cursor: pointer;
+}
+.join-container .form-wrap .form-control .btn {
+  display: inline-block;
+  margin: auto;
+  min-width: 6em;
+  border: none;
+  padding: .6em 8em;
+  border-radius: 2em;
+  color: #fff;
+  background-color: #0ee8d5;
+  cursor: pointer;
+}
+.join-container .form-wrap .form-control .btn.gray {
+  background-color: #ebebeb;
+}
